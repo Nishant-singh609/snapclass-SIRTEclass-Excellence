@@ -9,8 +9,12 @@ from src.component.dialog_create_subject import create_subject_dialog
 from src.component.dialog_share_subject import share_subject_dialog
 from src.component.dialog_add_photo import add_photos_dialog
 
-
-from src.pipeline.face_pipeline import predict_attendance
+#yaha change kiya hay
+#from src.pipeline.face_pipeline import predict_attendance
+try:
+    from src.pipeline.face_pipeline import predict_attendance
+except Exception:
+    predict_attendance = None
 from src.component.dialog_attendance_result import attendance_result_dialog
 from src.component.dialog_attendance_result import attendance_result_dialog
 import numpy as np
