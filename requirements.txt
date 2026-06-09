@@ -1,0 +1,31 @@
+streamlit
+# utilites
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scipy
+# face recoganize
+
+scikit-learn
+tensorflow
+
+dlib-bin
+scikit-learn
+tensorflow
+keras
+torch
+xgboost
+lightgbm
+git+https://github.com/ageitgey/face_recognition_models
+supabase
+bcrypt
+segno
+pillow
+flask
+django
+fastapi
+
+librosa
+resemblyzer
